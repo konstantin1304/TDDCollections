@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Demo.TddCollections.Lib;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,8 @@ namespace Demo.TDDCollections.App
     {
         static void Main(string[] args)
         {
+            MyList<int> l = new MyList<int>();
+
         }
     }
 }
